@@ -1,0 +1,157 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway|Roboto+Mono" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    CSS
+  </nav>
+  <section class="firstSection">
+    <h1>Pseudo Class</h1>
+    <div class="container">
+      <h3>a:Hover</h3>
+      <a href="https://www.myplanet.com" class="link1">www.Myplanet.com</a>
+    </div>
+  </section>
+  <section>
+    <h1>Better Selectors</h1>
+    <div class="container">
+      <h3>Grouping Selectors</h3>
+      <p class="select1">hello world</p>
+      <p class="select2">hello world</p>
+      <p class="select3">hello world</p>
+      <p>
+        Grouping allows you to select multiple <span class="highlight">selectors</span> to have the same styling.
+        Should be used sparingly.
+      </p>
+    </div>
+    <div class="container">
+      <h3>Child Selectors</h3>
+      <p>Allows you to target elements immediate parent. Uses <span class="highlight">></span> symbol.</p>
+      <div class="selectChild">
+        <p>I am selected because I'm a child of a <span class="high">selectChild</span></p>
+      </div>
+      <p class="codeExample">.selectChild > p</p>
+      <p>I won't be selected because I'm not a child of <span class="high">selectChild</span> class</p>
+    </div>
+    <div class="container">
+      <h3>Adjacent Selectors</h3>
+      <p>Allows you to select an element's immediate sibling</p>
+      <form action="" class="adjacentSelector">
+        <label>Name: </label>
+        <input type="text">
+        <input type="text">
+      </form>
+      <div class="codeExample">
+        .adjacentSelector label + input { ...do something here to first input box }
+      </div>
+    </div>
+  </section>
+  <section>
+    <h1>Lists</h1>
+    <div class="container">
+      <h3>Lists styles</h3>
+      <ul class="listStyle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
+    </div>
+    <div class="container">
+      <h3>List Style Position</h3>
+      <p>Inside of padding:</p>
+      <ul class="inside">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+      </ul>
+      <p>Outside of padding:</p>
+      <ul class="outside">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+      </ul>
+    </div>
+    <div class="container">
+      <h3>List-style-image</h3>
+      <ul class="listImage">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <h1>Tables</h1>
+    <div class="container">
+      <h3>Border-collapse</h3>
+      <p>Tables usually have two borders, you want to collapse down to one border</p>
+      <table class="tableStyle">
+        <tr>
+          <td>test 1</td>
+          <td>test 2</td>
+          <td>test 3</td>
+        </tr>
+      </table>
+    </div>
+    <div class="container">
+      <h3>Vertical Align</h3>
+      <p>Sometimes one table cell will have more items and displace the adjcent cell. Use Vertical Align to fix this issue.</p>
+      <div class="pane">
+        <table class="topAlign">
+          <tr>
+            <td>
+              <p>Hello World</p>
+              <p>Hello World</p>
+              <p>Hello World</p>
+              <p>Hello World</p>
+              <p>Hello World</p>
+            </td>
+            <td>
+              <p>Align me!</p>
+            </td>
+          </tr>
+        </table>
+        <table class="centerAlign">
+          <tr>
+            <td>
+              <p>Hello World</p>
+              <p>Hello World</p>
+              <p>Hello World</p>
+              <p>Hello World</p>
+              <p>Hello World</p>
+            </td>
+            <td>
+              <p>Align me!</p>
+            </td>
+          </tr>
+        </table>
+        <table class="bottomAlign">
+          <tr>
+            <td>
+              <p>Hello World</p>
+              <p>Hello World</p>
+              <p>Hello World</p>
+              <p>Hello World</p>
+              <p>Hello World</p>
+            </td>
+            <td>
+              <p>Align me!</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

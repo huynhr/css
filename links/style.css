@@ -1,0 +1,165 @@
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+nav {
+  margin: 0;
+  background-color: #000;
+  background-color: rgba(0,0,0,0.85);
+  color: #fff;
+  font-size: 50px;
+  padding: 0px 10px 10px 90px;
+  width: 100%;
+  position: fixed;
+  top:0;
+}
+
+
+h1, h3 {
+  border-bottom: 2px solid #000;
+}
+
+section {
+  margin: 10px;
+}
+
+.firstSection {
+  margin-top: 150px;
+}
+
+.link1 {
+  text-decoration: none;
+  color: #000;
+}
+
+.link1:hover {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+/*.link1:visited {*/
+  /*color: blue;*/
+/*}*/
+
+.link1:active {
+  color: red;
+}
+
+section {
+  width: 1500px;
+  margin: 20px auto;
+}
+
+.container {
+  width: 1250px;
+  margin: 20px auto;
+  background-color: whitesmoke;
+  padding: 20px 50px;
+  border: 1px solid #efefef;
+}
+
+.pane {
+  display: flex;
+  justify-content: space-around;
+}
+
+.select1, .select2, .select3 {
+  color: blue;
+}
+
+.highlight {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.selectChild > p {
+  color: blue;
+}
+
+.codeExample {
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  /*width: 1000px;*/
+  margin: 0 auto;
+}
+
+.adjacentSelector label + input {
+  background-color: transparent;
+}
+
+.listStyle {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listStyle li {
+  border-left: 1px solid #909090;
+  border-right: 1px solid #909090;
+  border-top: 1px solid #909090;
+  width: 100px;
+  text-align: center;
+}
+
+.listStyle :last-child {
+  border-bottom: 1px solid #909090;
+}
+
+.listStyle li:hover {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.inside {
+  list-style-position: inside;
+  border: 1px solid red;
+}
+
+.outside {
+  list-style-position: outside;
+  border: 1px solid red;
+}
+
+.listImage {
+  list-style-image: url("../assets/cool.gif");
+}
+
+.tableStyle {
+  border: 10px solid blue;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableStyle td {
+  text-align: center;
+}
+
+.pane table {
+  border-collapse: collapse;
+}
+
+.pane table td{
+  border: 1px solid black;
+}
+
+.topAlign td{
+  vertical-align: top;
+}
+
+.centerAlign td{
+  vertical-align: center;
+}
+
+.bottomAlign td{
+  vertical-align: bottom;
+}
+
+
