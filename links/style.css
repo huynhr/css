@@ -189,15 +189,28 @@ section {
   margin: 0 auto;
 }
 
+.tableMiniProject thead {
+  border-bottom: 1px solid #ccc;
+}
+
+.tableMiniProject tfoot {
+  border-top: 1px solid #ccc;
+}
+
+.tableMiniProject tr td {
+  font-size: 15px;
+}
+
 .tableMiniProject tr th, td {
   padding: 10px 30px;
 }
 
-.tableMiniProject tr:hover {
-  background-color: #ccc;
+.tableMiniProject tbody tr:hover {
+  background-color: #424242;
+  color: #fff;
 }
 
-.tableMiniProject tr td:hover, th:hover {
+.tableMiniProject tbody tr td:hover {
   font-weight: 900;
-  background-color: #909090;
+  background-color: #676767;
 }
