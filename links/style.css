@@ -162,4 +162,42 @@ section {
   vertical-align: bottom;
 }
 
+.tableHoverEffect {
+  border-collapse: collapse;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
 
+.tableHoverEffect tr:hover{
+  background-color: #ccc;
+}
+
+.tableHoverEffect tr td {
+  padding: 10px 100px;
+}
+
+.tableHoverEffect tr td:hover {
+  background-color: #909090;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.tableMiniProject {
+  /*width: 100%;*/
+  border-collapse: collapse;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.tableMiniProject tr th, td {
+  padding: 10px 30px;
+}
+
+.tableMiniProject tr:hover {
+  background-color: #ccc;
+}
+
+.tableMiniProject tr td:hover, th:hover {
+  font-weight: 900;
+  background-color: #909090;
+}
