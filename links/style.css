@@ -41,10 +41,6 @@ section {
   font-weight: 900;
 }
 
-/*.link1:visited {*/
-  /*color: blue;*/
-/*}*/
-
 .link1:active {
   color: red;
 }
@@ -213,4 +209,40 @@ section {
 .tableMiniProject tbody tr td:hover {
   font-weight: 900;
   background-color: #676767;
+}
+
+.displayBlock {
+  display: block;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.displayInline {
+  display: inline-block;
+  border: 1px solid #000;
+}
+
+.inlineElement {
+  border: 1px solid #000;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline > div {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.inlineBlock {
+  display: inline-block;
+  border: 1px solid #909090;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+}
+
+.inlineBlock:hover {
+  background-color: #ccc;
 }
