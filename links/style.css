@@ -246,3 +246,15 @@ section {
 .inlineBlock:hover {
   background-color: #ccc;
 }
+
+.relative {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #909090;
+}
+
+.relativePosition div:last-child {
+  position: relative;
+  left: 200px;
+}
