@@ -330,3 +330,46 @@ section {
   margin: 10px;
 }
 
+.attForm {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #cccccc;
+}
+
+.attForm input, label {
+  display: block;
+}
+
+.attForm button {
+  margin: 20px 0;
+  width: 150px;
+}
+
+.attForm [type] {
+  width: 150px;
+  height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
