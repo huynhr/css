@@ -343,6 +343,13 @@ section {
 .attForm button {
   margin: 20px 0;
   width: 150px;
+  background-color: #909090;
+  height: 25px;
+  font-size: 15px;
+}
+
+.attForm button:hover {
+  background: #cccccc;
 }
 
 .attForm [type] {
@@ -350,12 +357,37 @@ section {
   height: 25px;
 }
 
+.attForm [type='email'] {
+  border: 2px solid #ff0000;
+}
 
+.attForm [for='name'] {
+  border: 2px solid #0000ff;
+}
 
+.lastChild p:last-child {
+  background-color: yellow;
+}
 
+.focusSelector {
+  width: 100%;
+  height: 50px;
+  font-size: 28px;
+  opacity: 0.5;
+}
 
+.focusSelector:focus {
+  opacity: 1;
+  background-color: #cccccc;
+}
 
+.checkboxPseudo {
+  visibility: hidden;
+}
 
+.checkBoxPseudoSelector:checked + .checkboxPseudo {
+  visibility: visible;
+}
 
 
 
