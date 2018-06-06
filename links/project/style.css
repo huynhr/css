@@ -40,6 +40,10 @@ nav {
 
 #nav-container:hover .nav li:hover {
   background-color: #343942;
+  width: 80px;
+}
+
+#nav-container:hover .nav li a:hover {
   color: #ffffff;
 }
 

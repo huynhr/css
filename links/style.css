@@ -389,7 +389,21 @@ section {
   visibility: visible;
 }
 
+.border-radius {
+  display: block;
+  height: 300px;
+  width: 300px;
+  border: 10px solid #cccccc;
+  border-radius: 50%;
+  margin: 0 auto;
+}
 
+.round {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-position: center center;
+}
 
 
 
